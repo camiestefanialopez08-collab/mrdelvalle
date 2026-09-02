@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f4effa;
+    color: #30243b;
+}
+header {
+    background-image: url("img/ejercito.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 320px;
+    padding: 90px 30px;
+    text-align: center;
+}
+header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px #30243b;
+}
+header p {
+    font-size: 21px;
+    color: white;
+    background-color: rgba(151, 64, 206, 0.75);
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+nav {
+    background-color: #6f4b8b;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 4px solid #b99bd0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+nav a:hover {
+    background-color: #b99bd0;
+    color: #30243b;
+    border-radius: 6px;
+}
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #d8c5e5;
+    border-left: 6px solid #8e6aa8;
+    border-radius: 12px;
+}
+section h2 {
+    color: #6f4b8b;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d8c5e5;
+    padding-bottom: 10px;
+}
+section p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+strong {
+    color: #6f4b8b;
+}
+section ul,
+section ol {
+    padding-left: 30px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+section li {
+    margin-bottom: 8px;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #d8c5e5;
+    margin: 15px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+th {
+    background-color: #6f4b8b;
+    color: white;
+    padding: 14px;
+    border: 1px solid #d8c5e5;
+    text-align: center;
+}
+td {
+    padding: 13px;
+    border: 1px solid #d8c5e5;
+    text-align: left;
+    background-color: #faf7fc;
+}
+footer {
+    background-color: #4b315f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+footer p {
+    margin: 5px;
+    font-size: 15px;
+}
+.destacado {
+    background-color: #eee4f5;
+    border-left: 6px solid #8e6aa8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+#linea-historica {
+    background-color: #f0e7f6;
+    padding: 25px;
+    border: 2px solid #b99bd0;
+    border-radius: 12px;
+}
+section img:hover {
+    transform: scale(1.02);
+}section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #d8c5e5;
+    margin: 15px auto;
+    display: block;
+    transition: transform 0.3s;
+}
+a {
+    transition: 0.3s;
+}
+.card {
+    height: 100%;
+    border: 2px solid #d8c5e5;
+    border-radius: 12px;
+}
+
+.card-title {
+    color: #6f4b8b;
+}
+
+.card-body {
+    padding: 25px;
+}
+.carousel {
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.carousel img {
+    max-height: 450px;
+    object-fit: cover;
+}
+.video-contenedor {
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.video-contenedor iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 12px;
+}
+.imagen-ia {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagen-ia img {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.imagen-ia p {
+    font-size: 14px;
+    font-style: italic;
+}
+
